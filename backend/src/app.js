@@ -6,6 +6,10 @@ app.use("/",(req,res) => {
     res.send("Namaste! Sandeep ");
 });
 
+app.use("/post",(req,res) => {
+    res.send("Namaste! Sandeep ");
+});
+
 app.use("/test",(req,res) => {
     res.send("Hello from the server!");
 });
